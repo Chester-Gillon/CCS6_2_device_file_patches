@@ -291,6 +291,7 @@
                 <instance XML_version="1.2" desc="CTETB_0" href="cpus/csetb.xml" id="CSETB_0" xml="csetb.xml" xmlpath="cpus"/>
                 <cpu HW_revision="1.0" XML_version="1.2" description="CS Embedded Trace Buffer" deviceSim="false" id="CSETB_0" isa="CS_ETB">
                     <property Type="numericfield" Value="0x03019000" id="Address"/>
+                    <property Type="numericfield" Value="0xa" id="TraceDeviceId"/>
                 </cpu>
             <instance XML_version="1.2" desc="CSETB_PTM" href="cpus/csetb.xml" id="CSETB_1" xml="csetb.xml" xmlpath="cpus"/>
             <cpu HW_revision="1.0" XML_version="1.2" desc="CSETB_PTM" description="CS Embedded Trace Buffer" deviceSim="false" id="CSETB_1" isa="CS_ETB">
